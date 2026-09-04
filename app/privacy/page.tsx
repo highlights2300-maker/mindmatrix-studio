@@ -13,7 +13,7 @@ export default function PrivacyPage() {
       <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 dark:text-white">
         Privacy Policy
       </h1>
-      <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">Last updated: January 2025</p>
+      <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">Last updated: September 2026</p>
 
       <div className="prose prose-slate mt-8 max-w-none dark:prose-invert">
         <h2>1. Our Core Privacy Principle: Local-First Processing</h2>
@@ -65,10 +65,12 @@ export default function PrivacyPage() {
 
         <h2>5. Analytics</h2>
         <p>
-          We may use privacy-conscious, aggregate web analytics to understand overall traffic
-          patterns (such as page views) in order to improve the site. Where analytics are used,
-          they are configured to avoid collecting personally identifying information and are not
-          combined with any gameplay data, which never leaves your device.
+          We use Vercel Web Analytics, a privacy-focused analytics service, to understand overall
+          traffic patterns such as page views and visitor counts. This service does not use
+          cookies and does not track individual users across sites. It collects only aggregate,
+          anonymized usage data and does not capture personally identifying information. Analytics
+          data is entirely separate from your gameplay progress, which is never collected by us
+          and remains solely on your device as described in Section 3.
         </p>
 
         <h2>6. Children&apos;s Privacy</h2>
