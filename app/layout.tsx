@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import UniversalHeader from "@/components/UniversalHeader";
 import UniversalFooter from "@/components/UniversalFooter";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "MindMatrix Studio — Free Brain Training Games",
@@ -20,6 +21,7 @@ export default function RootLayout({
         <UniversalHeader />
         {children}
         <UniversalFooter />
+        <Analytics />
       </body>
     </html>
   );
